@@ -1,0 +1,8 @@
+D:\dev\ViscaLib\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.deps.json
+D:\dev\ViscaLib\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.dll
+D:\dev\ViscaLib\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.pdb
+D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.csprojAssemblyReference.cache
+D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfoInputs.cache
+D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfo.cs
+D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.dll
+D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.pdb

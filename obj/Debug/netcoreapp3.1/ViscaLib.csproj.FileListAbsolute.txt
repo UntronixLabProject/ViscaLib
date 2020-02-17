@@ -1,0 +1,5 @@
+D:\dev\ViscaLib\ViscaLib\bin\Debug\netcoreapp3.1\ViscaLib.deps.json
+D:\dev\ViscaLib\ViscaLib\bin\Debug\netcoreapp3.1\ViscaLib.dll
+D:\dev\ViscaLib\ViscaLib\obj\Debug\netcoreapp3.1\ViscaLib.csprojAssemblyReference.cache
+D:\dev\ViscaLib\ViscaLib\obj\Debug\netcoreapp3.1\ViscaLib.AssemblyInfoInputs.cache
+D:\dev\ViscaLib\ViscaLib\obj\Debug\netcoreapp3.1\ViscaLib.AssemblyInfo.cs
