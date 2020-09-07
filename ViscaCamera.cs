@@ -14,24 +14,35 @@ namespace ViscaLib
             Source = source;
             Limits = limits;
         }
+        protected ViscaCamera(ViscaLimits limits)
+        {
+            Limits = limits;
+        }
 
         protected ViscaCamera()
         {
         }
 
-        public bool Connect()
+        public bool Connect(bool needSetup = true)
         {
             try
             {
                 Source.Connect();
-                ViscaConnectCommand connectCommand = new ViscaConnectCommand(Source,Limits);
-                var cameraAnswer = connectCommand.Execute();
-                if (cameraAnswer.ResponseType == ViscaCodes.ResponseError)
+                if(needSetup)
                 {
-                    return false;
-                }
+                    ViscaConnectCommand connectCommand = new ViscaConnectCommand(Source,Limits);
+                    var cameraAnswer = connectCommand.Execute();
+                    if (cameraAnswer.ResponseType == ViscaCodes.ResponseError)
+                    {
+                        return false;
+                    }
 
-                _cameraNum = cameraAnswer.Response[2] - 1;
+                    _cameraNum = cameraAnswer.Response[2] - 1;
+                }
+                else
+                {
+                    _cameraNum = 1;
+                }
                 HardwareConnected = true;
                 return HardwareConnected;
             } 

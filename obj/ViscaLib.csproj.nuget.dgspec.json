@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\ViscaLib\\ViscaLib\\ViscaLib.csproj": {}
+    "C:\\Users\\Untr0nix\\dev\\Work\\Libs\\ViscaLib\\ViscaLib.csproj": {}
   },
   "projects": {
-    "D:\\dev\\ViscaLib\\ViscaLib\\ViscaLib.csproj": {
+    "C:\\Users\\Untr0nix\\dev\\Work\\Libs\\ViscaLib\\ViscaLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\ViscaLib\\ViscaLib\\ViscaLib.csproj",
+        "projectUniqueName": "C:\\Users\\Untr0nix\\dev\\Work\\Libs\\ViscaLib\\ViscaLib.csproj",
         "projectName": "ViscaLib",
-        "projectPath": "D:\\dev\\ViscaLib\\ViscaLib\\ViscaLib.csproj",
-        "packagesPath": "C:\\Users\\Самир\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\ViscaLib\\ViscaLib\\obj\\",
+        "projectPath": "C:\\Users\\Untr0nix\\dev\\Work\\Libs\\ViscaLib\\ViscaLib.csproj",
+        "packagesPath": "C:\\Users\\Untr0nix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Untr0nix\\dev\\Work\\Libs\\ViscaLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Самир\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Untr0nix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

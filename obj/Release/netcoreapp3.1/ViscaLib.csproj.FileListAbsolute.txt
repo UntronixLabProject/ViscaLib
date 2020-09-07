@@ -6,3 +6,12 @@ D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfoInputs.c
 D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfo.cs
 D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.dll
 D:\dev\ViscaLib\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.pdb
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.deps.json
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.dll
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\bin\Release\netcoreapp3.1\ViscaLib.pdb
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.csprojAssemblyReference.cache
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfoInputs.cache
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.AssemblyInfo.cs
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.csproj.CoreCompileInputs.cache
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.dll
+C:\Users\Untr0nix\dev\Work\Libs\ViscaLib\obj\Release\netcoreapp3.1\ViscaLib.pdb

@@ -14,11 +14,11 @@ namespace ViscaLib
             Port = port;
         }
 
-        public SerialPortSource(string comPort,bool useTimeout)
+        public SerialPortSource(string comPort,bool useTimeout,int baudRate = 9600)
         {
             Port = new SerialPort(comPort)
             {
-                BaudRate = 9600, DataBits = 8, Parity = Parity.None, Handshake = Handshake.None, ReadTimeout = 2000
+                BaudRate = baudRate, DataBits = 8, Parity = Parity.None, Handshake = Handshake.None, ReadTimeout = 2000
             };
             _useTimeout = useTimeout;
         }
@@ -82,6 +82,7 @@ namespace ViscaLib
             return response;
 
         }
+
     }
 
 }
