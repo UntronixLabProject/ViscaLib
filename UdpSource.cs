@@ -68,7 +68,7 @@ namespace ViscaLib
         {
             if(!_connected)
             {
-                Sender.Connect();
+                Sender.Connect(Ip);
             }
         }
 

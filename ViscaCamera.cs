@@ -152,6 +152,25 @@ namespace ViscaLib
         {
             return Name;
         }
+    }
+
+    public class BirdogP100 : ViscaCamera
+    {
+        public string Name { get; set; }
+        public BirdogP100(ISource source,string name)
+        {
+            Source = source;
+            Name = name;
+            Limits = new BirdogP100Limits();
+        }
+        public BirdogP100(ISource source,ViscaLimits limits,string name): base(source,limits)
+        {
+            Name = name;
+        }
+        public override string ToString()
+        {
+            return Name;
+        }
 
     }
 

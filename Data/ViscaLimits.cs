@@ -81,4 +81,22 @@ namespace ViscaLib.Data
         public override ZoomPosition MinZoomRatio => new ZoomPosition(this.ZoomValues) { EncoderCount = this.ZoomValues[0].Item2 };
         public override ZoomPosition MaxZoomRatio => new ZoomPosition(this.ZoomValues) { EncoderCount = this.ZoomValues[17].Item2 };
     }
+    public class BirdogP100Limits:ViscaLimits
+    {
+        public override int HardwareMinZoomSpeed { get; } = 0x00;
+        public override int HardwareMaxZoomSpeed { get; } = 0x07;
+        public override AngularPosition HardwareMinPanAngle { get; } = new AngularPosition { Degrees = -350 };
+        public override AngularPosition HardwareMaxPanAngle { get; } = new AngularPosition { Degrees = 350 };
+        public override AngularPosition HardwareMinTiltAngle { get; } = new AngularPosition { Degrees = -30 };
+        public override AngularPosition HardwareMaxTiltAngle { get; } = new AngularPosition { Degrees = 30 };
+
+        public override double PanDegreesPerEncoderCount { get; } = 0.075;
+        public override double TiltDegreesPerEncoderCount { get; } = 0.075;
+        public override int DefaultPanTiltSpeed { get; } = 5;
+        public override int HardwareMinPanTiltSpeed { get; } = 1;
+        public override int HardwareMaxPanTiltSpeed { get; } = 24;
+        public override int DefaultZoomSpeed { get; } = 0x00;
+        public override ZoomPosition MinZoomRatio => new ZoomPosition(this.ZoomValues) { EncoderCount = this.ZoomValues[0].Item2 };
+        public override ZoomPosition MaxZoomRatio => new ZoomPosition(this.ZoomValues) { EncoderCount = this.ZoomValues[17].Item2 };
+    }
 }
